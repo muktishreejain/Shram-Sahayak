@@ -1,0 +1,14 @@
+.env
+backend/data/
+backend/uploads/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+.venv-py311/
+venv/
+*.egg-info/
+.DS_Store
+Thumbs.db
