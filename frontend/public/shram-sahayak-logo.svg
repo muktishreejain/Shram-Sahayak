@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shram Sahayak logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#174f9e"/>
+      <stop offset="1" stop-color="#0b7660"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+  <path d="M32 12 49 18v11c0 11-7 19-17 23C22 48 15 40 15 29v-11l17-6Z" fill="#fff" fill-opacity=".96"/>
+  <path d="M32 18v28M22 27h20M23 38c3-4 6-6 9-6s6 2 9 6" fill="none" stroke="#176b57" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M32 22c4-4 8-3 8 1 0 4-4 7-8 10-4-3-8-6-8-10 0-4 4-5 8-1Z" fill="#ff9933"/>
+</svg>
