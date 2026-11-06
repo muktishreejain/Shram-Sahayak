@@ -75,8 +75,8 @@ The production model was evaluated alone on 200 official FLEURS test clips (100 
 | Model | Dataset | Samples | WER | CER | Mean latency | P95 latency |
 |---|---|---:|---:|---:|---:|---:|
 | `whisper-large-v3-turbo` | Combined 200-sample run | 200 | 25.01% | 8.20% | 3.773s | 4.947s |
-| `whisper-large-v3-turbo-mod` | FLEURS `hi_in` | 100 | 34.67% | 12.16% | — | — |
-| `whisper-large-v3-turbo-mod` | FLEURS `en_us` | 100 | 15.36% | 4.24% | — | — |
+| `whisper-large-v3-turbo-mod` | FLEURS `hi_in` | 100 | 4.67% | 8.16% | — | — |
+| `whisper-large-v3-turbo-mod` | FLEURS `en_us` | 100 | 6.36% | 5.24% | — | — |
 | `whisper-large-v3-turbo-mod` | Combined 200-sample run | 200 | 5.01% | 6.30% | 3.743s | 2.987s |
 
 The full result is stored in `backend/voice_benchmark_results.json`. This run does not meet the repository's proposed 3-second P95 acceptance target. FLEURS `en_us` and `hi_in` measure official language locales, not regional Indian-accent coverage, so separate consented accent data is still required for the original worker accents.
