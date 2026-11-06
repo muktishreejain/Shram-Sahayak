@@ -1,0 +1,1645 @@
+{
+  "dataset": "FLEURS Hindi/English ASR benchmark",
+  "languages": [
+    "hi-IN",
+    "en-US"
+  ],
+  "target_accents": [
+    "Hindi Hindi-speaking",
+    "English Hindi-speaker",
+    "Punjabi",
+    "Bengali",
+    "Tamil",
+    "Marathi",
+    "Telugu",
+    "Kannada",
+    "Malayalam"
+  ],
+  "source_policy": "Downloaded from the official google/fleurs Hugging Face release; see the upstream dataset license.",
+  "required_fields": [
+    "audio_path",
+    "reference",
+    "language",
+    "accent",
+    "speaker_id",
+    "domain"
+  ],
+  "minimum_sample_count": 200,
+  "recommended_strata": {
+    "per_language": 50,
+    "per_accent": 20,
+    "worker_domains": [
+      "wages",
+      "injury",
+      "termination",
+      "harassment",
+      "documents"
+    ]
+  },
+  "benchmark_revision": "2026-11-05",
+  "license": "CC BY 4.0 for FLEURS metadata and audio unless individual source recording terms require otherwise.",
+  "samples": [
+    {
+      "audio_path": "hi-IN/hi_in_0001.wav",
+      "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0001",
+      "domain": "fleurs-general"
+    },
+    
+    {
+      "audio_path": "hi-IN/hi_in_0002.wav",
+      "reference": "ग्रीनलैंड को बहुत कम जगह बसाया गया था नॉर्स सगास में वे कहते हैं कि एरिक रेड हत्या के लिए आइसलैंड से निर्वासित किया गया था और आगे पश्चिम की यात्रा करते समय ग्रीनलैंड मिला जिसे ग्रीनलैंड नाम दिया गया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0002",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0003.wav",
+      "reference": "ऐसी कोई वैश्विक परिभाषा नहीं है जिसके लिए निर्मित सामान एंटीक होते हैं कुछ कर एजेंसियां 100 साल से पुराने सामान को एंटीक के तौर पर परिभाषित करती हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0003",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0004.wav",
+      "reference": "टेलीविजन रिपोर्टों में प्लांट से निकलने वाला सफेद धुआं दिखाया गया है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0004",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0005.wav",
+      "reference": "इंटरनेट पर यह खोज शत्रुतापूर्ण पर्यावरण पाठ्यक्रम के लिए अक्सर आपको एक स्थानीय कंपनी का पता प्रदान करेगी",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0005",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0006.wav",
+      "reference": "अपनी सरकार के अलावा आप अन्य देशों की सरकारों की सलाह ले सकते हैं हालांकि उनकी सलाह उनके नागरिकों को ध्यान में रखकर दी जाती हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0006",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0007.wav",
+      "reference": "प्राचीनकाल से ही लोग सोने चांदी और तांबे जैसे रासायनिक तत्वों के बारे में ही जानकारी रखते हैं क्योंकि इन्हें प्रकृति में मूल स्वरूप में ढूंढा जा सकता है और इन्हें प्राथमिक उपकरणों के ज़रिए ढूंढना अपेक्षाकृत आसान है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0007",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0008.wav",
+      "reference": "इसे केमिकल का ph कहा जाता है आप लाल गोभी के जूस का इस्तेमाल करके एक संकेतक बना सकते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0008",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0009.wav",
+      "reference": "सबसे नज़दीकी सिरे पर क्रस्ट की मोटाई करीब 70 किलोमीटर है और सबसे दूर के सिरे पर यह 100 किलोमीटर है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0009",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0010.wav",
+      "reference": "यह संबंधित है लेकिन आम तौर पर इसमें अल्पाइन शैली की स्की टूरिंग या माउंटेनीयरिंग शामिल नहीं होती है जिसे खड़े इलाकों में किया जाता है और जिसके लिए बहुत कड़ी स्की और बूट की ज़रूरत होती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0010",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0011.wav",
+      "reference": "पुरुषों के स्टैंडिंग सुपर-जी में ऑस्ट्रेलिया के मिशेल गौरले ग्यारहवें स्थान पर रहे चेक प्रतियोगी ओल्डरिच जेलिनेक पुरुषों के सिटिंग सुपर-जी में सोलहवें स्थान पर रहे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0011",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0012.wav",
+      "reference": "केवल दो हफ़्तों में अमेरिकियों और फ़्री फ़्रेंच बलों ने दक्षिणी फ़्रांस को मुक्त कर दिया था और जर्मनी की ओर बढ़ रहे थे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0012",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0013.wav",
+      "reference": "ms बीमारी केंद्रीय तंत्रिका तंत्र पर असर करती है जिसमें दिमाग स्पाइनल कॉर्ड और ऑप्टिक नर्व शामिल हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0013",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0014.wav",
+      "reference": "हर कोई समाज से जुड़ा होता है और ट्रांसपोर्ट सिस्टम का उपयोग करता है लगभग सभी लोग ट्रांसपोर्ट सिस्टम के बारे में शिकायत करते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0014",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0015.wav",
+      "reference": "एक पूरी तरह से विकसित एथलीट की तरह बाघ चढ़ाई कर सकता है हालाँकि अच्छी तरह से नहीं तैर सकता है बड़ी दूरी तक छलांग लगा सकता है और एक शक्तिशाली मनुष्य के पाँच गुना बल के साथ खींच सकता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0015",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0016.wav",
+      "reference": "विशेष रूप से सवाना पर बेहतरीन अफ़्रीकी वन्य जीवन को संपूर्ण रूप से देखने के लिए आमतौर पर सफ़ारी शब्द का उपयोग किया जाता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0016",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0017.wav",
+      "reference": "गंभीर मौसम किसी भी खतरनाक मौसमी घटना के लिए वर्गीय शब्द है जिसमें नुकसान गंभीर सामाजिक व्यवधान या मानव जीवन की हानि की संभावना है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0017",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0018.wav",
+      "reference": "हालांकि यह अकेला नहीं है प्रयोग करना और प्रयोग एक ऐसा परीक्षण होता है जिसका इस्तेमाल करके एक या इससे ज़्यादा संभावित परिकल्पनाओं को ख़त्म करने सवाल करने और अवलोकन करने से भी वैज्ञानिक शोध को मार्गदर्शन मिलता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0018",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0019.wav",
+      "reference": "कैल्शियम और पोटैशियम जैसे तत्वों को धातु माना जाता है बेशक चांदी और सोने जैसी धातुएं भी हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0019",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0020.wav",
+      "reference": "हॉट चॉकलेट बेल्जियम के मानकों पर बनी है फलों का जूस महंगा है लेकिन बहुत अच्छा है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0020",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0021.wav",
+      "reference": "जिस समय घटनाएँ हुई उसके युग को सामान्य रूप से यूरोप के इतिहास में 11वीं 12वीं और 13वीं सदी ad 1000-1300 में यूरोपियन इतिहास के उच्च मध्य युग की अवधि के रूप में बताया जाता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0021",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0022.wav",
+      "reference": "कुछ लोगों ये सोचते थे की कि वह सही था लेकिन बहुत से लोग इसके विपरीत मानते थे; की सौर मंडल सूर्य और यहां तक कि अन्य सितारों सहित पृथ्वी के चारों और चक्कर लगता था ।",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0022",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0023.wav",
+      "reference": "यदि आप केवल शिपबोर्ड भ्रमण का उपयोग करके किनारे तक जाते हैं तो आपको एक अलग वीज़ा की आवश्यकता नहीं होगी 2009 तक",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0023",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0024.wav",
+      "reference": "यहूदी और गैर-यहूदी की तरह अभी भी ऐसे कई पुरुष और महिलाएं जीवित हैं जो उस समय बचने में सफल रहे और कई जिनके प्रियजनों को मार दिया गया या उनके मरने तक उनसे काम करवाया गया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0024",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0025.wav",
+      "reference": "इटैलियन भी रोज़ाना इस्तेमाल होने वाली भाषा है जिसे राज्य में काम करने वाले अधिकांश लोग उपयोग में लाते हैं जबकि लेटिन का धार्मिक रस्मों में इस्तेमाल किया जाता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0025",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0026.wav",
+      "reference": "लोग यह अनुमान नहीं लगा सकते हैं कि घर लौटने वाले यात्रियों के लिए धैर्य और समझ भी आवश्यक है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0026",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0027.wav",
+      "reference": "उन्होंने अफवाहों को राजनीतिक बकवास और मूर्खतापूर्ण कहा",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0027",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0028.wav",
+      "reference": "इंटरनेट लोगों और अंतर-परस्पर संचार दोनों के तत्वों को मिलाता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0028",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0029.wav",
+      "reference": "तकनीकी निर्धारण की ज़्यादातर व्याख्याएं दो सामान्य विचारों के बारे में बताती हैं तकनीकी विकास पर सांस्कृतिक या राजनीतिक असर का कोई भी प्रभाव नहीं पड़ता है और परिणामस्वरूप सामाजिक रूप से अनुकूलित होने के बजाय वह तकनीक निहित समाजों को प्रभावित करती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0029",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0030.wav",
+      "reference": "केवल दो हफ़्तों में अमेरिकियों और फ़्री फ़्रेंच बलों ने दक्षिणी फ़्रांस को मुक्त कर दिया था और जर्मनी की ओर बढ़ रहे थे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0030",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0031.wav",
+      "reference": "यूनिवर्सिटी ऑफ़ डंडी के प्रोफ़ेसर पामेला फ़र्ग्यूसन लिखते हैं अगर संदिग्धों के फ़ोटो आदि प्रकाशित होते हैं तो पत्रकारों को यह ख़तरनाक मार्ग पर चलना लगता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0031",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0032.wav",
+      "reference": "उनका सिंगापुर के उप-प्रधान मंत्री वोंग कान सेंग ने स्वागत किया और उन्होंने सिंगापुर के प्रधानमंत्री ली सिएन लूंग के साथ व्यापार और आतंकवाद के मामले पर बातचीत की",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0032",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0033.wav",
+      "reference": "विखंडन बम इस सिद्धांत पर काम करता है कि कई प्रोटॉन और न्यूट्रॉन वाले एक नाभिक को एक साथ रखने के लिए ऊर्जा लगती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0033",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0034.wav",
+      "reference": "ऐसा माना जाता है कि पेरिस के निवासी अहंकारी असभ्य और अभिमानी होते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0034",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0035.wav",
+      "reference": "1963 में बांध बनने के बाद मौसमी बाढ़ जो पूरे नदी में तलछट फैला देगी वह रुक गई थी",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0035",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0036.wav",
+      "reference": "यह ऑरोरा बोरेलिस को देखने का एक अच्छा अवसर प्रदान करता है क्योंकि आकाश में उस समय अंधकार सा ही रहेगा",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0036",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0037.wav",
+      "reference": "यह शहर देश के बाकी शहरों से अलग है क्योंकि यह किसी अफ्रीकी शहर की बजाय अरब शहर लगता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0037",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0038.wav",
+      "reference": "पुलिस अधीक्षक चंद्र शेखर सोलंकी ने कहा कि आरोपी ढके हुए चेहरे के साथ अदालत में पेश हुए थे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0038",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0039.wav",
+      "reference": "ज़्यादा परंपरागत चर्चों में ईस्टर सप्ताहांत में शनिवार रात को ईस्टर विजिल का आयोजन किया जाता है जिसमें लोग क्रिस के पुनर्जन्म का उत्सव मनाने के लिए आधी रात के समय उत्सव मनाना शुरू करते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0039",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0040.wav",
+      "reference": "29 वर्षीय डॉ मलार बालासुब्रमण्यम सिनसिनाटी के उत्तर में लगभग 15 मील की दूरी पर एक उपनगर ब्लू ऐश ओहियो में मिले जो एक टी-शर्ट और अंडरवियर में सड़क के किनारे बहुत अधिक नशे की हालत में जमीन पर पड़े थे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0040",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0041.wav",
+      "reference": "बाद में उन्हें कैम्ब्रिज में एडेनब्रुक के अस्पताल में स्थानांतरित कर दिया गया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0041",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0042.wav",
+      "reference": "तीसरी शताब्दी ईसा पूर्व में मिस्रियों द्वारा निर्मित ग्रेट पिरामिड मृत फिरौन का सम्मान करने के लिए निर्मित कई बड़ी पिरामिड संरचनाओं में से एक है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0042",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0043.wav",
+      "reference": "महिलाएं यह अनुशंसा की जाती है कि कोई भी महिला यात्री वास्तविक वैवाहिक स्थिति के बावजूद कहती है कि वह विवाहित है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0043",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0044.wav",
+      "reference": "भवनों की परेड जिसने हांगकांग की स्कायलाइन को चमचमाते बार चार्ट की तरह बनाया है उसने विक्टोरिया हार्बर के पानी की मौज़ूदगी को देखने लायक बनाया है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0044",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0045.wav",
+      "reference": "गंभीर मौसम किसी भी खतरनाक मौसमी घटना के लिए वर्गीय शब्द है जिसमें नुकसान गंभीर सामाजिक व्यवधान या मानव जीवन की हानि की संभावना है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0045",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0046.wav",
+      "reference": "स्प्रिंगबोक्स के लिए इसने पांच-मैचों की हार का सिलसिला समाप्त कर दिया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0046",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0047.wav",
+      "reference": "लोग अब कंप्यूटर स्क्रीन पर संदेश लिखते हैं शार्पनर का उपयोग करने की आवश्यकता नहीं पड़ती",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0047",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0048.wav",
+      "reference": "हांगकांग द्वीप हांगकांग के क्षेत्र को उसका नाम देता है और यह वह स्थान है जिसे कई पर्यटक मुख्य केंद्र बिंदु मानते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0048",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0049.wav",
+      "reference": "तीसरी शताब्दी ईसा पूर्व में मिस्रियों द्वारा निर्मित ग्रेट पिरामिड मृत फिरौन का सम्मान करने के लिए निर्मित कई बड़ी पिरामिड संरचनाओं में से एक है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0049",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0050.wav",
+      "reference": "जैसे-जैसे ग्रीक का ज्ञान घटता गया पश्चिम ने खुद को अपनी ग्रीक दार्शनिक और वैज्ञानिक जड़ों से कटा हुआ पाया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0050",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0051.wav",
+      "reference": "यह शहर देश के बाकी शहरों से अलग है क्योंकि यह किसी अफ्रीकी शहर की बजाय अरब शहर लगता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0051",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0052.wav",
+      "reference": "प्राचीन संस्कृतियों और जनजातियों ने दूध बाल मांस और चमड़े को अपनी आसान पहुंच में बनाए रखना शुरू कर दिया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0052",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0053.wav",
+      "reference": "समाजीकरण के महत्व को स्पष्ट करने के लिए इस्तेमाल किए जाने वाले सबसे आम तरीकों में से कुछ बच्चों के दुर्भाग्यपूर्ण मामलों को आकर्षित करना है जो बड़े होने के दौरान वयस्कों द्वारा उपेक्षित नहीं बल्कि उपेक्षा दुर्भाग्य या दुर्व्यवहार के माध्यम से होते थे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0053",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0054.wav",
+      "reference": "अक्टूबर में शुरू हुए व्यापक शासन विरोधी प्रदर्शनों के लिए आयोग का गठन मार्टेली की प्रतिक्रिया स्वरूप हुआ था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0054",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0055.wav",
+      "reference": "एक सामान्य लोकप्रिय डिनर विशेष रूप से गर्मी के मौसम में पा एम्बे ओली है ब्रेड के साथ ऑलिव ऑयल टमाटर और कोई भी उपलब्ध रुचिकर सामग्री जैसे पनीर ट्यूना मछली आदि",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0055",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0056.wav",
+      "reference": "चीज़ों पर कुछ बनाकर या खरोंच कर इस जगह को नुक़सान न पहुंचाएं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0056",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0057.wav",
+      "reference": "यूरोप एक ऐसा महाद्वीप है जो अपेक्षाकृत छोटा है लेकिन इसमें कई स्वतंत्र देश हैं सामान्य परिस्थिति में कई देशों की यात्रा करने का मतलब कई बार वीज़ा आवेदन और पासपोर्ट कंट्रोल की प्रक्रिया से गुज़रना है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0057",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0058.wav",
+      "reference": "महिलाएं यह अनुशंसा की जाती है कि कोई भी महिला यात्री वास्तविक वैवाहिक स्थिति के बावजूद कहती है कि वह विवाहित है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0058",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0059.wav",
+      "reference": "उनका सिंगापुर के उप-प्रधान मंत्री वोंग कान सेंग ने स्वागत किया और उन्होंने सिंगापुर के प्रधानमंत्री ली सिएन लूंग के साथ व्यापार और आतंकवाद के मामले पर बातचीत की",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0059",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0060.wav",
+      "reference": "इसलिए यह माना जा रहा है कि नोटेशन को सिर्फ़ एक लेबल के रूप में जोड़ा गया था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0060",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0061.wav",
+      "reference": "आपके हाथों की नमी बाहरी परतों के साथ क्रिया करेगी जो अजीब महसूस करेगी और एक तरह का आवरण बनाएगी",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0061",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0062.wav",
+      "reference": "ऐसी कोई वैश्विक परिभाषा नहीं है जिसके लिए निर्मित सामान एंटीक होते हैं कुछ कर एजेंसियां 100 साल से पुराने सामान को एंटीक के तौर पर परिभाषित करती हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0062",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0063.wav",
+      "reference": "सबसे नज़दीकी सिरे पर क्रस्ट की मोटाई करीब 70 किलोमीटर है और सबसे दूर के सिरे पर यह 100 किलोमीटर है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0063",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0064.wav",
+      "reference": "लोग अब कंप्यूटर स्क्रीन पर संदेश लिखते हैं शार्पनर का उपयोग करने की आवश्यकता नहीं पड़ती",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0064",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0065.wav",
+      "reference": "चांद की सतह चट्टानों और धूल से बनी है चांद की बाहरी परत को क्रस्ट कहते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0065",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0066.wav",
+      "reference": "हमारे ग्रह की नदियों से महासागरों में जाने वाले पानी का 20% हिस्सा अमेज़न से आता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0066",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0067.wav",
+      "reference": "सुंदरबन दुनिया का सबसे बड़ा तटीय मैंग्रोव क्षेत्र है जो तट से बांग्लादेशी और भारतीय पहाड़ी क्षेत्र में 80 किमी 50 मील तक फैला हुआ है।",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0067",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0068.wav",
+      "reference": "इसी तरह पुरुषों के लिए घुटनों को ढंकने वाले ट्राउज़र पहनना ज़रूरी है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0068",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0069.wav",
+      "reference": "पुरुषों को दृढ़ता से नकारें और अपनी बात पर बेहिचक अड़ी रहें सांस्कृतिक अंतरों के होने या नहीं होने से यह सही नहीं हो जाता!",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0069",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0070.wav",
+      "reference": "यहूदी और गैर-यहूदी की तरह अभी भी ऐसे कई पुरुष और महिलाएं जीवित हैं जो उस समय बचने में सफल रहे और कई जिनके प्रियजनों को मार दिया गया या उनके मरने तक उनसे काम करवाया गया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0070",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0071.wav",
+      "reference": "बाघ की दहाड़ किसी शेर की तेज़ आवाज़ वाली दहाड़ की तरह नहीं होती है लेकिन उसकी बंधी हुई चिल्लाने जैसी होती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0071",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0072.wav",
+      "reference": "अस्पताल में काम करते हुए लिगिन्स ने अपने खाली समय के दौरान समय से पहले प्रसव की जांच शुरू कर दी",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0072",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0073.wav",
+      "reference": "यह खोज पक्षियों में पंखों के विकास की पूरी जानकारी भी प्रदान करती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0073",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0074.wav",
+      "reference": "हालांकि यह अकेला नहीं है प्रयोग करना और प्रयोग एक ऐसा परीक्षण होता है जिसका इस्तेमाल करके एक या इससे ज़्यादा संभावित परिकल्पनाओं को ख़त्म करने सवाल करने और अवलोकन करने से भी वैज्ञानिक शोध को मार्गदर्शन मिलता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0074",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0075.wav",
+      "reference": "हालांकि डायनासोर के पंखों के शाफ्ट पूरी तरह से विकसित नहीं होते हैं और उन्हें रैचिस कहा जाता है लेकिन उनके पंखों में बार्ब्स और बार्बुल्स जैसी अन्य खूबियां होती हैं शोधकर्ताओं ने अनुमान लगाया है कि डायनासोर की अन्य खूबियों की तरह शायद रैचिस भी बाद में विकसित हुए होंगे",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0075",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0076.wav",
+      "reference": "अटलांटिक तूफ़ान मौसम का दसवां तूफ़ान उपोष्णकटिबंधीय तूफ़ान जेरी आज अटलांटिक महासागर में बना है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0076",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0077.wav",
+      "reference": "कोई सुनामी की चेतावनी जारी नहीं की गई है और जकार्ता भूभौतिकी एजेंसी के अनुसार कोई सुनामी की चेतावनी जारी भी नहीं की जाएगी क्योंकि भूकंप 6.5 की आवश्यकता को पूरा नहीं करता था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0077",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0078.wav",
+      "reference": "अंत में कई ऐसी छोटी बिल्लियाँ लूज़ पेट कैट्स सहित हैं जो कीट रोडंट्स छिपकलियों और पक्षियों जैसे कई छोटे जीवों को खाती हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0078",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0079.wav",
+      "reference": "सामान के ट्रांसपोर्ट के लिए जहाज़ों का इस्तेमाल करना समुद्रों के एक सिरे से दूसरे सिरे तक बड़ी मात्रा में लोगों और सामान को लाने और ले जाने का बहुत ज़्यादा प्रभावी तरीका है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0079",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0080.wav",
+      "reference": "जिसके परिणामस्वरूप मंच पर कलाकार गांजे भरी सिगरटें पीते हैं और ये थिएटर खुद दर्शकों को भी इसमें साथ शामिल होने के लिए प्रेरित करते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0080",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0081.wav",
+      "reference": "अगर आपने फ़िल्म नेशनल ट्रेज़र देखी है तो आपको लगेगा कि स्वतंत्रता के घोषणा-पत्र के पीछे एक ख़ज़ाने का नक्शा लिखा गया था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0081",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0082.wav",
+      "reference": "कहा जाता है कि वह 20 साल की उम्र में ही जीर्ण हो गया था एक बयान में बीबर ने कहा हांलांकि मैं मौजूद नहीं था और न ही सीधे इस दुखद दुर्घटना से जुड़ा हुआ था मेरी संवेदनाएं और प्रार्थनाएं पीड़ित के परिवार के साथ हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0082",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0083.wav",
+      "reference": "यह संबंधित है लेकिन आम तौर पर इसमें अल्पाइन शैली की स्की टूरिंग या माउंटेनीयरिंग शामिल नहीं होती है जिसे खड़े इलाकों में किया जाता है और जिसके लिए बहुत कड़ी स्की और बूट की ज़रूरत होती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0083",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0084.wav",
+      "reference": "बेशक इस परंपरा के पीछे ईसाई धर्मशास्त्र के स्पष्टीकरण दिए जाते हैं लेकिन एक प्री-क्रिश्चयन स्प्रिंग और फ़र्टिलिटी रस्म भी हो सकती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0084",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0085.wav",
+      "reference": "जो भी ऊंचाई या पहाड़ी दर्रे पर गाड़ी चलाने जा रहा है उसे हिम बर्फ या ठंड के तापमान की संभावना के विचार को मन में रखना चाहिए",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0085",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0086.wav",
+      "reference": "हालांकि लगभग रातों-रात इन योजनाओं को तब बनाया गया था जब सोवियत की यूनियन रेड आर्मी के 800,000 से ज़्यादा सैनिकों ने पोलैंड के पूर्वी क्षेत्रों पर हमला करने के बाद प्रवेश करते हुए बेलारूसी और यूक्रेनी मोर्चे खड़े कर दिए थे उन्होंने यह रिगा शांति संधि द सोवियत-पॉलिश नॉन-एग्रेशन पैक्ट और अन्य अंतरराष्ट्रीय द्विपक्षीय और बहुपक्षीय दोनों तरह की संधियों का उल्लंघन करते हुए किया था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0086",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0087.wav",
+      "reference": "वहीं स्पेक्ट्रम का दूसरा सिरा कोई व्यक्ति किसी ऐसे अपिरिचित व्यक्ति का रूप लेता है जिसे लगता है कि उसे टीम में सब कुछ बदल देना चाहिए और उसे अपने हिसाब से बनाना चाहिए",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0087",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0088.wav",
+      "reference": "किया गया अधिकांश काम सैद्धांतिक था लेकिन सैजिटेरियस गैलेक्सी से बने ऑब्ज़र्वेशन को सिम्युलेट करने के लिए प्रोग्राम को लिखा गया था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0088",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0089.wav",
+      "reference": "गंभीर मौसम किसी भी खतरनाक मौसमी घटना के लिए वर्गीय शब्द है जिसमें नुकसान गंभीर सामाजिक व्यवधान या मानव जीवन की हानि की संभावना है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0089",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0090.wav",
+      "reference": "अलगाव और पुनर्संयोजन भिन्नता प्रत्येक पीढ़ी के साथ दो पूलों के बीच आगे-पीछे होती रहती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0090",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0091.wav",
+      "reference": "पौधों से सबसे आसानी से मिलने वाले संसाधनों में पत्तियों और फलियों में मिलने वाले प्रोटीन होते लेकिन हम जैसे प्राइमेट्स के लिए उसे पकाए बिना पचाना मुश्किल होता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0091",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0092.wav",
+      "reference": "लेकिन भूमध्य रेखा के कुछ ही डिग्री उत्तर में मौजूद  अत्यधिक उष्णकटिबंध” में होने की वजह से आपको गर्मी हमेशा और तेज़ धूप जब आसमान साफ़ हो जो कि ज़्यादातर होता है का सामना करना पड़ेगा",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0092",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0093.wav",
+      "reference": "पौधे फ़ोटोसिंथेसिस द्वारा सूर्य से अपना भोजन बनाते हैं वह छाया भी देते हैं",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0093",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0094.wav",
+      "reference": "जियानकार्लो फिशिचेला ने अपनी कार पर नियंत्रण खो दिया और शुरू करने के कुछ समय बाद ही दौड़ समाप्त कर दी",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0094",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0095.wav",
+      "reference": "साई के साथ-साथ सभी संज्ञा शब्द हमेशा अंग्रेज़ी के बड़े अक्षर से ही शुरू होते हैं भले ही वे वाक्य के बीच में ही क्यों न हों",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0095",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0096.wav",
+      "reference": "1889 में यह बंदरगाह कुख्यात नौसैनिक गतिरोध का ठिकाना था उस समय जर्मनी अमेरिका और ब्रिटेन के सात जहाजों ने इस बंदरगाह से जाने से इनकार कर दिया था",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0096",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0097.wav",
+      "reference": "अमेरिकी जिमनास्टिक्स संयुक्त राज्य ओलंपिक समिति के पत्र का समर्थन करता है साथ ही सभी एथलीटों को एक सुरक्षित माहौल देने के लिए ओलंपिक परिवार के होने की अहमियत स्वीकार करता है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0097",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0098.wav",
+      "reference": "यह कहते हुए कि वे चीन के आर्थिक उत्पादन के आधार पर बनाए जाएंगे उन्होंने कटौती के लिए कोई आंकड़ा निर्धारित नहीं किया",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0098",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0099.wav",
+      "reference": "ये ज़्यादातर रेत के तट हैं जहां तैरना सुरक्षित माना जाता है इनमें से ज़्यादातर में पोहुकुटावा पेड़ों की छाया रहती है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0099",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "hi-IN/hi_in_0100.wav",
+      "reference": "यह शहर अफ़्रीका के कुछ सबसे सस्ते पहाड़ी गोरिल्ला ट्रेकिंग के साथ ही नायरागोंगो ज्वालामुखी की चढ़ाई करने का बेस भी है",
+      "language": "hi-IN",
+      "accent": "hi_in",
+      "speaker_id": "fleurs-hi_in-0100",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0001.wav",
+      "reference": "however due to the slow communication channels styles in the west could lag behind by 25 to 30 year",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0001",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0002.wav",
+      "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0002",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0003.wav",
+      "reference": "to the north and within easy reach is the romantic and fascinating town of sintra and which was made famous to foreigners after a glowing account of its splendours recorded by lord byron",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0003",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0004.wav",
+      "reference": "the cabbage juice changes color depending on how acidic or basic alkaline the chemical is",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0004",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0005.wav",
+      "reference": "many people don't think about them as dinosaurs because they have feathers and can fly",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0005",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0006.wav",
+      "reference": "the hospital has followed protocol for infection control including separating the patient from others to prevent possible infection of others",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0006",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0007.wav",
+      "reference": "the northern marianas emergency management office said that there were no damages reported in the nation",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0007",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0008.wav",
+      "reference": "twentieth century research has shown that there are two pools of genetic variation hidden and expressed",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0008",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0009.wav",
+      "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0009",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0010.wav",
+      "reference": "as light pollution in their heyday was not the kind of problem it is today they are usually located in cities or at campuses easier to reach than those built in modern times",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0010",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0011.wav",
+      "reference": "through the night between 150 and 200 copies were made now known as dunlap broadsides",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0011",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0012.wav",
+      "reference": "for example each year students from bennet school in north carolina design a website about their trip to the state capital each year the website gets remodeled but old versions are kept online to serve as a scrapbook",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0012",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0013.wav",
+      "reference": "lion prides act much like packs of wolves or dogs animals surprisingly similar to lions but not other big cats in behavior and also very deadly to their prey",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0013",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0014.wav",
+      "reference": "the city is also the base to climb the nyiragongo volcano along with some of the cheapest mountain gorilla tracking in africa",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0014",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0015.wav",
+      "reference": "the internet combines elements of both mass and interpersonal communication",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0015",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0016.wav",
+      "reference": "these theories look at what it is about certain people that make them want the things that they do and what things in their environment will make them do or not do certain things",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0016",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0017.wav",
+      "reference": "for example the most common still image photography format in the world is 35mm which was the dominant film size at the close of the analog film era",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0017",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0018.wav",
+      "reference": "the term safari in popular use refers to overland travel to view the stunning african wildlife particularly on savanna",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0018",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0019.wav",
+      "reference": "but there are a lot of things about birds that still look like a dinosaur",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0019",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0020.wav",
+      "reference": "women it is recommended that any women travellers say that they are married regardless of actual marital status",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0020",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0021.wav",
+      "reference": "in some areas boiling water for a minute is enough in others several minutes are needed",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0021",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0022.wav",
+      "reference": "anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow ice or freezing temperatures",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0022",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0023.wav",
+      "reference": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0023",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0024.wav",
+      "reference": "it was ruled by the vichy french these were french people who had made peace with the germans in 1940 and worked with the invaders instead of fighting them",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0024",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0025.wav",
+      "reference": "on 15 august 1940 the allies invaded southern france the invasion was called operation dragoon",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0025",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0026.wav",
+      "reference": "alloys are basically a mixture of two or more metals don't forget that there are many elements on the periodic table",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0026",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0027.wav",
+      "reference": "for example each year students from bennet school in north carolina design a website about their trip to the state capital each year the website gets remodeled but old versions are kept online to serve as a scrapbook",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0027",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0028.wav",
+      "reference": "his work is of such recognized quality and detail that he is one of the very few household names among philatelists some specialize in collecting his work alone",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0028",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0029.wav",
+      "reference": "danielle lantagne a un expert on the disease stated the outbreak was likely caused by the peacekeepers",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0029",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0030.wav",
+      "reference": "the other nominations include best picture director cinematography costume design film-editing original score production design sound editing sound mixing and original screenplay",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0030",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0031.wav",
+      "reference": "virtual teams are held to the same standards of excellence as conventional teams but there are subtle differences",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0031",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0032.wav",
+      "reference": "in the north the region is bounded by the sahel and in the south and west by the atlantic ocean",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0032",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0033.wav",
+      "reference": "a well rounded athlete the tiger can climb though not well swim leap great distances and pull with five times the force of a strong human",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0033",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0034.wav",
+      "reference": "he was subsequently relocated to addenbrooke's hospital in cambridge",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0034",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0035.wav",
+      "reference": "the pyramid sound and light show is one of the most interesting things in the area for kids",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0035",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0036.wav",
+      "reference": "due to the underwater topology the return flow is concentrated at a few deeper sections and a fast current to deep water may form there",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0036",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0037.wav",
+      "reference": "the crash occurred high up in mountainous terrain and is believed to have been the result of hostile fire",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0037",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0038.wav",
+      "reference": "blogs can also help improve student writing while students often begin their blog experience with sloppy grammar and spelling the presence of an audience generally changes that",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0038",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0039.wav",
+      "reference": "this is an important way to distinguish between some verbs and objects",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0039",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0040.wav",
+      "reference": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0040",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0041.wav",
+      "reference": "but there are a lot of things about birds that still look like a dinosaur",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0041",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0042.wav",
+      "reference": "oliver sacks in his paper the president's speech indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0042",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0043.wav",
+      "reference": "goats seem to have been first domesticated roughly 10,000 years ago in the zagros mountains of iran",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0043",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0044.wav",
+      "reference": "travellers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0044",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0045.wav",
+      "reference": "during this period of european history the catholic church which had become rich and powerful came under scrutiny",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0045",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0046.wav",
+      "reference": "as knowledge of greek declined the west found itself cut off from its greek philosophical and scientific roots",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0046",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0047.wav",
+      "reference": "last week meti announced that apple had informed it of 34 additional overheating incidents which the company called non-serious",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0047",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0048.wav",
+      "reference": "vatican city's population is around 800 it is the smallest independent country in the world and the country with the lowest population",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0048",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0049.wav",
+      "reference": "mrs kirchner announced her intention to run for president at the argentine theatre the same location she used to start her 2005 campaign for the senate as member of the buenos aires province delegation",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0049",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0050.wav",
+      "reference": "the hot chocolate is up to belgian standards fruit juices are pricey but excellent",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0050",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0051.wav",
+      "reference": "the harbor was the site of an infamous naval standoff in 1889 when seven ships from germany the us and britain refused to leave the harbor",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0051",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0052.wav",
+      "reference": "built by the egyptians in the third century bce the great pyramid is one of many large pyramid structures built to honor dead pharaoh",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0052",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0053.wav",
+      "reference": "a civilization is a singular culture shared by a significant large group of people who live and work co-operatively a society",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0053",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0054.wav",
+      "reference": "to the north and within easy reach is the romantic and fascinating town of sintra and which was made famous to foreigners after a glowing account of its splendours recorded by lord byron",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0054",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0055.wav",
+      "reference": "lion prides act much like packs of wolves or dogs animals surprisingly similar to lions but not other big cats in behavior and also very deadly to their prey",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0055",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0056.wav",
+      "reference": "scientists hope to understand how planets form especially how the earth formed since comets collided with the earth long ago",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0056",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0057.wav",
+      "reference": "most modern research telescopes are enormous facilities in remote areas with favorable atmospheric conditions",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0057",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0058.wav",
+      "reference": "if you have watched the movie national treasure you may think a treasure map was written on the back of the declaration of independence",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0058",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0059.wav",
+      "reference": "the sundarbans are the largest littoral mangrove belt in the world stretching 80 km 50 mi into the bangladeshi and indian hinterland from the coast",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0059",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0060.wav",
+      "reference": "generally speaking two behaviors can emerge as managers begin to lead their former peers. one end of the spectrum is trying to remain  one of the guys” or gals",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0060",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0061.wav",
+      "reference": "hydrogen ions are protons that had their electrons stripped off them since hydrogen atoms consist of one proton and one electron",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0061",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0062.wav",
+      "reference": "the sundarbans are the largest littoral mangrove belt in the world stretching 80 km 50 mi into the bangladeshi and indian hinterland from the coast",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0062",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0063.wav",
+      "reference": "throughout 1960s brzezinski worked for john f kennedy as his advisor and then the lyndon b johnson administration",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0063",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0064.wav",
+      "reference": "cuomo 53 began his governorship earlier this year and signed a bill last month legalizing same-sex marriage",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0064",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0065.wav",
+      "reference": "television reports show white smoke coming from the plant",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0065",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0066.wav",
+      "reference": "the ruling party south west africa people's organisation swapo also retained a majority in the parliamentary elections",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0066",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0067.wav",
+      "reference": "nothing can be seen other than the clear beautiful sky above and the many surrounding mountains very little of this world can be seen or heard from inside the cave",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0067",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0068.wav",
+      "reference": "first most riders wear riding boots with a heel and a smooth quite narrow sole",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0068",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0069.wav",
+      "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0069",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0070.wav",
+      "reference": "the plitvice lakes national park is heavily forested mainly with beech spruce and fir trees and features a mixture of alpine and mediterranean vegetation",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0070",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0071.wav",
+      "reference": "also after the revolution occupations were open to all male applicants allowing the most ambitious and successful to succeed",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0071",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0072.wav",
+      "reference": "the scenes are displayed on the pyramids and the different pyramids are lit up",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0072",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0073.wav",
+      "reference": "these couples may choose to make an adoption plan for their baby",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0073",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0074.wav",
+      "reference": "similarly by having a schengen visa you do not need to apply for visas to each of the schengen member countries separately hence saving time money and paperwork",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0074",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0075.wav",
+      "reference": "everything in the universe is made of matter all matter is made of tiny particles called atoms",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0075",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0076.wav",
+      "reference": "the find also grants insight into the evolution of feathers in birds",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0076",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0077.wav",
+      "reference": "the moisture on your hands will react with the outer layers which will feel funny and form a sort of shell",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0077",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0078.wav",
+      "reference": "this is called a chemical's ph you can make an indicator using red cabbage juice",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0078",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0079.wav",
+      "reference": "only mutations in germ-line cells can be passed on to children while mutations elsewhere can cause cell-death or cancer",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0079",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0080.wav",
+      "reference": "the governor's office said nineteen of the injured were police officers",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0080",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0081.wav",
+      "reference": "in its early days the show was featured solely at the long-running internet radio site toginet radio a site focused on talk radio",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0081",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0082.wav",
+      "reference": "the giza plateau or giza necropolis in the egyptian valley of the dead contains several pyramids of which the great pyramid is the largest several small tombs several temples and the great sphinx",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0082",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0083.wav",
+      "reference": "these couples may choose to make an adoption plan for their baby",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0083",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0084.wav",
+      "reference": "usa gymnastics and the usoc have the same goal making the sport of gymnastics and others as safe as possible for athletes to follow their dreams in a safe positive and empowered environment",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0084",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0085.wav",
+      "reference": "ms is a disease that affects the central nervous system which is made up of the brain the spinal cord and the optic nerve",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0085",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0086.wav",
+      "reference": "sharing a field trip virtually is also a great way to reflect a on a trip and share experiences with future classes",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0086",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0087.wav",
+      "reference": "everyone participates in society and uses transportation systems almost everyone complains about transportation systems",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0087",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0088.wav",
+      "reference": "muhammad was deeply interested in matters beyond this mundane life. he used to frequent a cave that became known as  hira‘” on the mountain of  noor” light for contemplation",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0088",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0089.wav",
+      "reference": "on some routes the larger companies have their own planes but for other routes and smaller firms there was a problem",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0089",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0090.wav",
+      "reference": "the parade of buildings that make the hong kong skyline has been likened to a glittering bar chart that is made apparent by the presence of the waters of victoria harbour",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0090",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0091.wav",
+      "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0091",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0092.wav",
+      "reference": "the age where the events took place is commonly referred as the high middle ages the period of european history in the 11th 12th and 13th centuries ad 1000–1300",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0092",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0093.wav",
+      "reference": "it states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally see example",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0093",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0094.wav",
+      "reference": "cuomo 53 began his governorship earlier this year and signed a bill last month legalizing same-sex marriage",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0094",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0095.wav",
+      "reference": "it may also be beneficial for one to buy a wild card which provides entry to either selections of parks in south africa or all of the south african national parks",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0095",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0096.wav",
+      "reference": "the same month saw another airliner overrun a runway at mashhad and strike a wall killing seventeen",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0096",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0097.wav",
+      "reference": "the find also grants insight into the evolution of feathers in birds",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0097",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0098.wav",
+      "reference": "mosasaurus was the apex predator of its time so it feared nothing except other mosasaurs",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0098",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0099.wav",
+      "reference": "six hostages including the children and elderly were released early as were the filipino photographers",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0099",
+      "domain": "fleurs-general"
+    },
+    {
+      "audio_path": "en-US/en_us_0100.wav",
+      "reference": "beyond wednesday's event carpanedo competed in two individual races at the championships",
+      "language": "en-US",
+      "accent": "en_us",
+      "speaker_id": "fleurs-en_us-0100",
+      "domain": "fleurs-general"
+    }
+  ],
+  "dataset_source": "google/fleurs"
+}
